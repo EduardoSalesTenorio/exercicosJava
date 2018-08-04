@@ -1,7 +1,7 @@
 /*
 Desenvolva um programa em java que leia o nome e a idade de 3 pessoas e mostre 
 o nome da pessoa mais velha e o nome da pessoa mais nova
-*/
+ */
 package um;
 
 import java.util.Scanner;
@@ -26,7 +26,6 @@ public class Um {
             System.out.println("Idade");
             idade[i] = entrada.nextInt();
         }
-
         maior = a.maior(idade);
         menor = a.menor(idade);
 
@@ -44,9 +43,7 @@ public class Um {
                 maior = idade[i];
                 cont = i;
             }
-
         }
-
         return cont;
     }
 
@@ -60,10 +57,7 @@ public class Um {
                 menor = idade[i];
                 cont = i;
             }
-
         }
-
         return cont;
     }
-
 }
